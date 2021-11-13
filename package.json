@@ -1,0 +1,20 @@
+{
+  "name": "esbndlr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=development && node esbuild.config",
+    "build": "esbuild src/scripts/app.js --outfile=dist/app.js --bundle",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "ejs": "^3.1.6",
+    "esbuild": "^0.13.13",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21"
+  }
+}
